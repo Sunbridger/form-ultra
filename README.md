@@ -481,7 +481,7 @@ watch={{
 
 ### Example 1: Basic Form
 
-```
+```tsx
 <FormField name="username" label="Username" rules={[{ required: true, message: 'Username is required' }]}>
   <input type="text" />
 </FormField>
@@ -489,7 +489,7 @@ watch={{
 
 ### Example 2: Custom Validator
 
-```
+```tsx
 <FormField
   name="password"
   label="Password"
@@ -506,7 +506,7 @@ watch={{
 
 ### Example 3: Watch Another Field
 
-```
+```tsx
 <FormField
   name="confirmPassword"
   label="Confirm Password"
