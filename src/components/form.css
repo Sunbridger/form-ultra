@@ -1,0 +1,17 @@
+.form-ultra-field {
+  margin-bottom: 21px;
+}
+
+.form-ultra-field-error-text {
+  color: #dc3545;
+}
+
+.form-ultra-field-label {
+  color: #565656;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-ultra-field-error-border {
+  border: 1px solid #dc3545;
+}
